@@ -29,20 +29,12 @@ The workflow is triggered on every push to the main branch.
 
 How to Run the Application Locally
 Clone the repository:
-bash
-Copy code
 git clone https://github.com/your-username/your-repository.git
 Navigate to the project directory:
-bash
-Copy code
 cd your-repository
 Build the Docker image:
-bash
-Copy code
 docker build -t my-image .
 Run the Docker container:
-bash
-Copy code
 docker run -p 8080:8080 my-image
 Access the application in your web browser at http://localhost:8080.
 #Notes
