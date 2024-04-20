@@ -1,10 +1,10 @@
-CI/CD Pipeline for Web Application
+#CI/CD Pipeline for Web Application
 This repository contains a simple CI/CD pipeline for a web application using GitHub Actions. The pipeline automates testing and deployment to DockerHub.
 
 Application Overview
 The web application is a basic Flask app that returns "Hello World!" when accessed.
 
-CI/CD Workflow
+#CI/CD Workflow
 Workflow Overview
 The CI/CD pipeline consists of two main jobs:
 
@@ -27,7 +27,7 @@ Run unit tests using pytest.
 Trigger
 The workflow is triggered on every push to the main branch.
 
-How to Run the Application Locally
+#How to Run the Application Locally
 Clone the repository:
 bash
 Copy code
@@ -45,6 +45,6 @@ bash
 Copy code
 docker run -p 8080:8080 my-image
 Access the application in your web browser at http://localhost:8080.
-Notes
+#Notes
 Replace your-username and your-repository with your GitHub username and repository name.
 Ensure that Docker is installed and running on your system to build and run the Docker image.
